@@ -15,7 +15,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: toplay_app_development
+  database: red_app_development
   pool: 5
   username: kendra
   password:
@@ -42,7 +42,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: toplay_app_test
+  database: red_app_test
   pool: 5
   username: kendra
   password:
@@ -51,7 +51,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: toplay_app_production
+  database: red_app_production
   pool: 5
   username: kendra
   password:
